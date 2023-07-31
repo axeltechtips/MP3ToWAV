@@ -18,7 +18,7 @@ Place the loversrock.mp3 (or any other MP3 file you want to convert) in the same
 Run the script using the following command:
 
 ```python
-python mp3_to_wav_converter.py
+python convert.py
 ```
 The script will prompt you to enter the name of the MP3 file (including the extension) you want to convert. For example, if your MP3 file is named loversrock.mp3, type loversrock.mp3 and press Enter.
 To make it easier, add the MP3 file to where your folder with the scripts are.
