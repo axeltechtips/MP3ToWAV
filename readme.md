@@ -3,7 +3,7 @@ If you are downloading from the release, you can skip this.
 Open your terminal or command prompt.
 Change to the directory where you want to clone the repository.
 ```command
-git clone https://github.com/your-username/mp3-to-wav-converter.git
+git clone https://github.com/axeltechtips/MP3ToWAV.git
 ```
 # Step 2: Install Required Dependencies
 Navigate to the cloned repository's directory:
