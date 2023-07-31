@@ -31,7 +31,7 @@ You should now have a new file named loversrock.wav (or the name of your MP3 fil
 You can use any media player that supports WAV files to play the converted file.
 
 # Step 5: Add Metadata (Optional)
-If you want to add metadata to the WAV file, you can use the "Song Metadata Generator" project available at https://github.com/n1d3v/song-metadata-generator. It provides tools for adding metadata to audio files, which can be useful for organizing and categorizing your music collection.
+If you want to add metadata to the WAV file, you will have to use a ID3 Tag Editor like https://www.mp3tag.de/en/.
 
 # Information
 You need to have ffmpeg and ffprobe in your path, or in the folder with the command. Go to https://ffmpeg.org/download.html and get ffmpeg and ffprobe.
