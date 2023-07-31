@@ -34,4 +34,4 @@ You can use any media player that supports WAV files to play the converted file.
 If you want to add metadata to the WAV file, you can use the "Song Metadata Generator" project available at https://github.com/n1d3v/song-metadata-generator. It provides tools for adding metadata to audio files, which can be useful for organizing and categorizing your music collection.
 
 # Information
-This includes FFMPEG files for WINDOWs only. If you are running this on MacOS or another os, please go to https://ffmpeg.org/download.html and get ffmpeg and ffprobe.
+This includes FFMPEG files for WINDOWS only. If you are running this on MacOS or another os, please go to https://ffmpeg.org/download.html and get ffmpeg and ffprobe.
