@@ -37,7 +37,13 @@ if __name__ == "__main__":
                 output_filename = os.path.splitext(input_filename)[0] + ".wav"
                 output_path = os.path.join(current_directory, output_filename)
 
-                # Convert the MP3 to WAV
-                mp3_to_wav(input_path, output_path)
+                # Convert the MP3 to WAV based on the operating system
+                if os.name == 'nt':  # Windows
+                    mp3_to_wav(input_path, output_path)
+                else:  # Unix-based systems (Linux, macOS, etc.)
+                    command = f'ffmpeg -i "{input_path}" "{output_path}"'
+                    os.system(command)
+                    print(f"Successfully converted {input_path} to {output_path}")
+
     except KeyboardInterrupt:
         print("\nConversion aborted by the user.")
